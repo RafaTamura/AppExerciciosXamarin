@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PrimeiroApp.Menu">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Exercícios Xamarin"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Button x:Name="btnEmail" Text="Criar Email" Clicked="btnEmail_Clicked_1"/>
+            <Button x:Name="btnImc" Text="Calcular IMC" Clicked="btnImc_Clicked_1"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

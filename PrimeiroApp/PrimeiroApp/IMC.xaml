@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PrimeiroApp.IMC">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Calculadora de IMC"/>
+            <Label Text="Nome"/>
+            <Entry x:Name="nomeImc" Keyboard="Text" Placeholder="Digite o seu nome: " />
+            <Label Text="Idade"/>
+            <Entry x:Name="idadeImc" Keyboard="Numeric" Placeholder="Digite a sua idade: " />
+            <Label Text="Peso em Kg"/>
+            <Entry x:Name="pesoImc" Keyboard="Numeric" Placeholder="Digite seu peso em Kg: " />
+            <Label Text="Altura em metros"/>
+            <Entry x:Name="alturaImc" Keyboard="Numeric" Placeholder="Digite sua altura em metros: " />
+
+            <Button x:Name="btnCalcularImc" Text="Calcular o seu IMC"/>
+            <Label x:Name="lblImc"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

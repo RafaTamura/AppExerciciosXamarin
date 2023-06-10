@@ -4,10 +4,10 @@
              x:Class="PrimeiroApp.Email">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Criando Email!" />
+            <Label Text="Criando Email!" FontSize="Title" HorizontalOptions="Center"/>
             <Entry x:Name="nomeEmail"  Keyboard="Text" Placeholder=" Digite o seu nome completo"/>
-            <Button x:Name="btnGerarEmail"  Text="Criar Email" />
-            <Label x:Name="lbEmail"/>
+            <Button x:Name="btnGerarEmail"  Text="Criar Email" FontSize="Title" BackgroundColor="Cyan" BorderColor="black" BorderWidth="1"/>
+            <Label x:Name="lbEmail" FontSize="Large" HorizontalTextAlignment="Center"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -15,19 +15,20 @@ namespace PrimeiroApp
 		public Menu ()
 		{
 			InitializeComponent ();
+           
 		}
 
-
-        public async Task btnImc_Clicked_1(object sender, EventArgs e)
+        private async void BtnImc_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new IMC());
+			await Navigation.PushAsync(new IMC());
+		
+		}
 
+        private async void BtnEmail_Clicked(object sender, EventArgs e)
+        {
+			await Navigation.PushAsync(new Email(), true);
+			
         }
 
-        public async Task btnEmail_Clicked_1(object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new Email());
-
-        }
     }
 }

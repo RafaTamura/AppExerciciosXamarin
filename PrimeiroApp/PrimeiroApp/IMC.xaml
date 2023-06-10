@@ -4,18 +4,18 @@
              x:Class="PrimeiroApp.IMC">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Calculadora de IMC"/>
-            <Label Text="Nome"/>
-            <Entry x:Name="nomeImc" Keyboard="Text" Placeholder="Digite o seu nome: " />
-            <Label Text="Idade"/>
-            <Entry x:Name="idadeImc" Keyboard="Numeric" Placeholder="Digite a sua idade: " />
-            <Label Text="Peso em Kg"/>
+            <Label Text="Calculadora de IMC" FontSize="Title" HorizontalOptions="CenterAndExpand" />
+            <Label Text="Nome" FontSize="Title"/>
+            <Entry x:Name="nomeImc" Keyboard="Text" Placeholder="Digite o seu nome: "/>
+            <Label Text="Idade" FontSize="Title"/>
+            <Entry x:Name="idadeImc" Keyboard="Numeric" Placeholder="Digite a sua idade: "/>
+            <Label Text="Peso em Kg" FontSize="Title"/>
             <Entry x:Name="pesoImc" Keyboard="Numeric" Placeholder="Digite seu peso em Kg: " />
-            <Label Text="Altura em metros"/>
+            <Label Text="Altura em metros" FontSize="Title" />
             <Entry x:Name="alturaImc" Keyboard="Numeric" Placeholder="Digite sua altura em metros: " />
 
-            <Button x:Name="btnCalcularImc" Text="Calcular o seu IMC"/>
-            <Label x:Name="lblImc"/>
+            <Button x:Name="btnCalcularImc" Text="Calcular o seu IMC" FontSize="Title" BackgroundColor="Aqua" BorderColor="black" BorderWidth="1"/>
+            <Label x:Name="lblImc" FontSize="Title"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

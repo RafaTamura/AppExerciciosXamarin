@@ -6,9 +6,10 @@
         <StackLayout>
             <Label Text="Exercícios Xamarin"
                 VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-            <Button x:Name="btnEmail" Text="Criar Email" Clicked="btnEmail_Clicked_1"/>
-            <Button x:Name="btnImc" Text="Calcular IMC" Clicked="btnImc_Clicked_1"/>
+                HorizontalOptions="CenterAndExpand" 
+                   FontSize="Large"/>
+            <Button x:Name="btnEmail" Text="Criar Email" Clicked="BtnEmail_Clicked" VerticalOptions="FillAndExpand" FontSize="Large" BorderColor="black" BorderWidth="1" BackgroundColor="Purple" TextColor="White"/>
+            <Button x:Name="btnImc" Text="Calcular IMC" Clicked="BtnImc_Clicked" VerticalOptions="FillAndExpand" FontSize="Large" BorderColor="black" BorderWidth="1" BackgroundColor="Purple" TextColor="White"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
